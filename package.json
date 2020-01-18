@@ -1,0 +1,32 @@
+{
+  "name": "Simple-HTTP-Assignment-Start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boringlawyer/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boringlawyer/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/boringlawyer/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}
